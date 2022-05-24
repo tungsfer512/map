@@ -1,0 +1,77 @@
+/* td,
+th {
+	border: 1px solid rgba(151, 151, 151, 0.48) !important;
+	padding: 20px 15px !important;
+}
+
+table {
+	position: relative;
+	border-collapse: collapse !important;
+}
+
+tbody {
+	overflow: hidden auto;
+	border: none !important;
+}
+.table-responsive {
+	overflow: hidden auto;
+	max-height: calc(57.5px + calc(55.5px * 10));
+	border: 1px solid black !important;
+}
+.table-responsive thead {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	background-color: #fff;
+	border: none !important;
+	margin-bottom: 1px !important;
+	box-shadow: -1px 1px 0 1px #000 !important;
+}
+thead th {
+	border: none !important;
+	border-left: 1px solid rgba(151, 151, 151, 0.48) !important;
+  font-weight: 900 !important;
+}
+
+thead th:first-child {
+  border-left: none !important;
+}
+
+.card-body {
+	position: relative;
+}*/
+.btn-add {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	font-size: 15px !important;
+	/* padding: 0 !important; */
+	padding-left:10px !important;
+	padding-right:10px !important;
+	font-weight: 600 !important;
+	position: absolute;
+	top: 20px;right: 30px;
+	width: 120px;height: 40px;
+}
+.btn-del {
+	background-color: #ff4546 !important;
+	border-color: #ff4546 !important;
+} 
+
+.table-responsive thead {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	background-color: #fff;
+	border: none !important;
+	margin-bottom: 1px !important;
+}
+
+.table-responsive {
+	overflow: hidden auto;
+	max-height: calc(57.5px + calc(55.5px * 6)) !important;
+}
+
+.table thead th {
+    border-bottom-width: 2px !important;
+}

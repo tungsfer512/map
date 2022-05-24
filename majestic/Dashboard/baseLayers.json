@@ -1,0 +1,46 @@
+[
+	{
+		"domain": "\"https://thuduc-maps.hcmgis.vn/thuducserver/gwc/service/wmts?layer=thuduc:thuduc_maps&style\"=&tilematrixset=EPSG:900913&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image/png&TileMatrix=EPSG:900913:{z}&TileCol={x}&TileRow={y}",
+		"minZoom": 0,
+		"maxZoom": 25,
+		"attribution": "\"HCMGIS Maps\""
+	},
+	{
+		"domain": "\"https://mapproxy.hcmgis.vn/wmts/hcmgis:basemaps/webmercator/{z}/{x}/{y}.png\"",
+		"minZoom": 0,
+		"maxZoom": 25,
+		"attribution": "\"HCMGIS Maps - via MapProxy\""
+	},
+	{
+		"domain": "\"http://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}\"",
+		"minZoom": 0,
+		"maxZoom": 25,
+		"attribution": "\"Google Maps\""
+	},
+	{
+		"domain": "\"http://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}\"",
+		"minZoom": 0,
+		"maxZoom": 25,
+		"attribution": "\"Google Satellite\""
+	},
+	{
+		"domain": "\"http://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}\"",
+		"minZoom": 0,
+		"maxZoom": 25,
+		"attribution": "\"Google Satellite Hybrid\""
+	},
+	{
+		"domain": "\"http://server.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}\"",
+		"subdomains": ["mt0", "mt1", "mt2", "mt3"],
+		"minZoom": 0,
+		"maxZoom": 25,
+		"attribution": "\"Esri Street\""
+	},
+	{
+		"domain": "\"http://server.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}\"",
+		"subdomains": ["mt0", "mt1", "mt2", "mt3"],
+		"minZoom": 0,
+		"maxZoom": 25,
+		"attribution": "\"Esri Street\""
+	}
+]
